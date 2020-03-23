@@ -1,0 +1,171 @@
+.tabs {
+    border: 1px solid #cccccc;
+    display: flex;
+}
+
+.tabs__sidebar{
+    width: 125px;
+    flex-shrink: 0;
+    background: #cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+.tabs__button:active {
+    backgrround: #dddddd
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: rgb(231, 35, 189);
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: rgb(35, 202, 231);
+    display: none;
+    overflow: hidden;
+}
+
+
+
+.accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: rgb(231, 48, 48);
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; 
+  }
+
+
+  .div class:"row" {
+      background-color: tomato;
+  }
+
+
+  zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; 
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  
+
+
+
+
+
+  * {box-sizing: border-box}
+
+.container {
+  position: relative;
+  width: 100PX;
+  max-width: 100px;
+}
+
+
+.image {
+  display: block;
+  width: 300PX;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 50;
+  background: rgb(31, 130, 155);
+  background: rgba(202, 46, 46, 0.5); 
+  color: #f1f1f1;
+  width: 10PX;
+  transition: .5s ease;
+  opacity:0;
+  color: pink;
+  font-size: 50px;
+  padding: 50px;
+  text-align: center;
+}
+
+
+
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 50;
+    left: 0;
+    right: 10;
+    background-color: #008CBA;
+    overflow: visible;
+    width: 100px;
+    height: 100px;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+
+
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-50%, -50%);
+  }
+  
+  .container:hover .overlay {
+    transform: scale(1);
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+  

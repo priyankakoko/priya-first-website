@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <style>
+        * {box-sizing: border-box}
+        body {font-family: "Lato", sans-serif;}
+
+.tab {
+  float: left;
+  border: 5px solid black;
+  background-color:  rgb(35, 218, 231);
+  width: 30%;
+  height: 300px;
+}
+
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: rgb(14, 13, 13);
+}
+
+
+.tab button.active {
+  background-color: rgb(8, 8, 8);;
+}
+
+
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 10px solid rgb(15, 15, 15);
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  display: none;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ p {
+  background-color: black;
+  color: white;
+  font-style: oblique;
+  align-content: center;
+
+}
+
+body {
+  background-color: rgb(223, 109, 147);}
+
+  h1 {
+  text-shadow: 2px 2px 5px rgb(243, 245, 243);
+}
+</style>
+</head>
+
+<body >
+  <h1><center>:) WHO AM I ? :)</center></h1>
+  <font face="Script" style="bold oblique"  color="white"  >
+                    <p> This is my home page, so I have to say something about myself. 
+                      Sometimes it is hard to introduce myself because I know myself very well that 
+                      I dont know where to start with. But I will tell few things about me. </p></font>
+   
+
+   
+
+
+     
+
+    <div class="container">
+      
+      <img src="D:\summer internship 2020\websites\priya-first-website\images/4.jpg" alt="Snow" style="width:300px;">
+      <div class="centered">  </div>
+      </div>
+                    
+      
+<h2>MY</h2>
+
+
+<div class="tab">
+  <button class="tablinks" onmouseover="openCity(event, 'RESPONSIBILITY')">RESPONSIBILITY</button>
+  <button class="tablinks" onmouseover="openCity(event, 'POSITIVE')">POSITIVE</button>
+  <button class="tablinks" onmouseover="openCity(event, 'NEGATIVE')">NEGATIVE</button>
+</div>
+
+<div id="RESPONSIBILITY" class="tabcontent">
+  <h3>RESPONSIBILITY</h3>
+  <p>I'm the first graduated person in my family. And also I was the elder person. 
+    So I have to be more responsible person through my family. I have to growth my family to high position.</p>
+</div>
+
+<div id="POSITIVE" class="tabcontent">
+  <h3>POSITIVE</h3> 
+  <p> To fall in love with myself is the first happiness for me. 
+    Many peoples come and go in my life, but I know what am I. I think my positive is, whenever any work is given 
+    to me I want to finish that work immediately. I dont want to postponed that work.</p> 
+</div>
+
+<div id="NEGATIVE" class="tabcontent">
+  <h3>NEGATIVE</h3>
+  <p>Fear is the most negative for me. Why I have this too much of fear is, 
+    I have to do something for my family as a resbonsible person. </p>
+</div>
+<div class="clearfix"></div>
+
+
+
+
+
+<h1> <center><b>MY HOBBIES :)</b></center></h1>
+<center>
+<table cellspacing="25px" cellpadding="25">
+    <tr>
+       <td> <marquee >
+           <img src="images/1.jpg" height="150px" width="150px" border="10px" >
+        </td></marquee>
+       <td><marquee>
+           <img src="images/2.jfif" height="150px" width="150px" border="10px" > 
+       </td></marquee>
+       <td><marquee>
+           <img src="images/3.jfif"  height="150px" width="150px" border="10px" > 
+       </td></marquee>
+   </tr>
+</table>   </center>
+<script>
+    function openCity(evt, Name) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(Name).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+       
+
+</body>
+</html> 
+        
+    
+       
+        
+
+
+
+
+
+        
