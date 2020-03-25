@@ -5,6 +5,7 @@
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">"
         <style>
         * {box-sizing: border-box}
         body {font-family: "Lato", sans-serif;}
@@ -95,12 +96,26 @@ body {
                     
       
 <h2>MY</h2>
-
-
 <div class="tab">
-  <button class="tablinks" onmouseover="openCity(event, 'RESPONSIBILITY')">RESPONSIBILITY</button>
-  <button class="tablinks" onmouseover="openCity(event, 'POSITIVE')">POSITIVE</button>
-  <button class="tablinks" onmouseover="openCity(event, 'NEGATIVE')">NEGATIVE</button>
+  <button class="tablinks" onmouseover="openCity(event, 'RESPONSIBILITY')">RESPONSIBILITY
+    <svg class="bi bi-house-door" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 01.708 0l6 6a.5.5 0 01.146.354v7a.5.5 0 01-.5.5H9.5a.5.5 0 01-.5-.5v-4H7v4a.5.5 0 01-.5.5H2a.5.5 0 01-.5-.5v-7a.5.5 0 01.146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 01.5-.5h3a.5.5 0 01.5.5v4h3.5V7.707L8 2.207l-5.5 5.5z" clip-rule="evenodd"/>
+      <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
+    </svg>
+  </button>
+  <button class="tablinks" onmouseover="openCity(event, 'POSITIVE')">POSITIVE          
+    <svg class="bi bi-check-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3-3a.5.5 0 11.708-.708L8 9.293l6.646-6.647a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+      <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1013.5 8a.5.5 0 011 0 6.5 6.5 0 11-3.25-5.63.5.5 0 11-.5.865A5.472 5.472 0 008 2.5z" clip-rule="evenodd"/>
+    </svg>
+  </button>
+  <button class="tablinks" onmouseover="openCity(event, 'NEGATIVE')">NEGATIVE   
+    <svg class="bi bi-x-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+      <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+      <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+    </svg> 
+  </button>
 </div>
 
 <div id="RESPONSIBILITY" class="tabcontent">
@@ -132,13 +147,13 @@ body {
 <table cellspacing="25px" cellpadding="25">
     <tr>
        <td> <marquee >
-           <img src="images/1.jpg" height="150px" width="150px" border="10px" >
+           <img src="images/1.jpg" height="150px" width="150px" border="20px" >
         </td></marquee>
        <td><marquee>
-           <img src="images/2.jfif" height="150px" width="150px" border="10px" > 
+           <img src="images/2.jfif" height="150px" width="150px" border="20px" > 
        </td></marquee>
        <td><marquee>
-           <img src="images/3.jfif"  height="150px" width="150px" border="10px" > 
+           <img src="images/3.jfif"  height="150px" width="150px" border="20px" > 
        </td></marquee>
    </tr>
 </table>   </center>
@@ -159,6 +174,7 @@ body {
       evt.currentTarget.className += " active";
     }
     </script>
+    
        
 
 </body>
